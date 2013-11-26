@@ -9,15 +9,15 @@ It just seems so perfect, dont like the music? Smack the screen and move on! So 
 
 While I was at it I decided to make future smack based scripts a little easier to get up and running. I created the smacker class. To create a left/right based smacker just extend the Smacker class like so.
 
-class TestSmack(Smacker):
-
-    """an example smacker implementation"""
-
-    def on_left(self):
-        print "left"
-
-    def on_right(self):
-        print "right"
+    class TestSmack(Smacker):
+    
+        """an example smacker implementation"""
+    
+        def on_left(self):
+            print "left"
+    
+        def on_right(self):
+            print "right"
 
 I may adapt Smacker to also handle forward/back tilting and anything else thats handy as the need arises. If anyone wants to try it before I do, Ill be happy to take their patches.
 
